@@ -1,17 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import NavigationBar from './components/NavigationBar';
+import Main from './sections/Main';
+import Projects from './sections/Projects';
+import About from './sections/About';
+import Contact from './sections/Contact';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome to Vadim's Website
-        </p>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <NavigationBar />
+        <Main />
+        <Projects />
+        <About />
+        <Contact />
+      </div>
+    );
+  }
 }
 
 export default App;
