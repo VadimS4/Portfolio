@@ -1,3 +1,7 @@
+.App {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -24,7 +28,7 @@
 .main-section {
   height: 100vh;
   min-height: 100%;
-  background-image: url("http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg");
+  background-image: url('./images/main-background.jpg')
 }
 
 .main-section .title {
@@ -58,3 +62,8 @@
   min-height: 100%;
   background-color: cadetblue;
 }
+
+footer {
+  display: inline;
+}
+
