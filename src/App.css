@@ -17,7 +17,7 @@
 .navbar ul li {
   color: white;
   font-size: 1.5em;
-  padding-right: 20px;
+  padding-right: 25px;
   display: inline;
   cursor: pointer;
 }
@@ -29,6 +29,7 @@
 .main-section {
   height: 100vh;
   min-height: 100%;
+  max-height: 100%;
   background-image: url('./images/main-background.jpg')
 }
 
@@ -46,15 +47,47 @@
   text-align: center;
 }
 
+.main-section .icons {
+  color: white;
+  padding: 100px;
+  text-align: center;
+  
+}
+
+.main-section .icons .githubButton {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.main-section .icons .linkedinButton {
+  color: white;
+  text-decoration: none;
+}
+
+.main-section .icons .twitterButton {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.main-section .downArrow {
+  color: white;
+  text-align: center;
+  padding: 8%;
+}
+
 .projects-section {
   height: 100vh;
   min-height: 100%;
+  max-height: 100%;
   background-color: darkslategray;
 }
 
 .about-section {
   height: 100vh;
   min-height: 100%;
+  max-height: 100%;
   background-color: gray;
 }
 
@@ -68,6 +101,7 @@
 .contact-section {
   height: 100vh;
   min-height: 100%;
+  max-height: 100%;
   background-color: cadetblue;
 }
 

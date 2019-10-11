@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Button, Icon } from 'semantic-ui-react';
+import { Link } from 'react-scroll';
 
 class Main extends Component {
     render() {
@@ -9,6 +11,27 @@ class Main extends Component {
                 </div>
                 <div className="subtitle">
                     <p>Software Engineer</p>
+                </div>
+                <div className="icons">
+                    <Button href="https://github.com/VadimS4" target="_blank" className="githubButton">
+                        <Icon link size="huge" name="github" />
+                    </Button>
+                    <Button href="https://www.linkedin.com/in/vadimstakhnyuk/" target="_blank" className="linkedinButton">
+                        <Icon link size="huge" name="linkedin" />
+                    </Button>
+                    <Button href="https://twitter.com/VadimStakh" target="_blank" className="twitterButton">
+                        <Icon link size="huge" name="twitter" />
+                    </Button>
+                </div>
+                <div className="downArrow">
+                    <Link
+                        activeClass="active"
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    ><Icon link size="huge" name="angle down"/></Link>
                 </div>
             </div>
         )
