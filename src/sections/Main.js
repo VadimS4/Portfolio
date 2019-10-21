@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Icon } from 'semantic-ui-react';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 
 class Main extends Component {
     render() {
@@ -22,8 +22,11 @@ class Main extends Component {
                     <Button href="https://twitter.com/VadimStakh" target="_blank" className="twitterButton">
                         <Icon link size="huge" name="twitter" />
                     </Button>
+                    <Button href="https://medium.com/@vstakhnyuk" target="_blank" className="mediumButton">
+                        <Icon link size="huge" name="medium" />
+                    </Button>
                 </div>
-                <div className="downArrow">
+                {/* <div className="downArrow">
                     <Link
                         activeClass="active"
                         to="projects"
@@ -32,7 +35,7 @@ class Main extends Component {
                         offset={0}
                         duration={500}
                     ><Icon link size="huge" name="angle down"/></Link>
-                </div>
+                </div> */}
             </div>
         )
     }
