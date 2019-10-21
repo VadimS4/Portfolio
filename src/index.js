@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'semantic-ui-css/components/icon.min.css';
+import 'semantic-ui-css/components/card.min.css';
+import 'semantic-ui-css/components/image.min.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
