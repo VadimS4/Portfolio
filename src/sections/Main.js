@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Button, Icon } from 'semantic-ui-react';
 // import { Link } from 'react-scroll';
 
+import '../styling/main.css';
+
 class Main extends Component {
     render() {
         return(
@@ -25,6 +27,9 @@ class Main extends Component {
                     <Button href="https://medium.com/@vstakhnyuk" target="_blank" className="mediumButton">
                         <Icon link size="huge" name="medium" />
                     </Button>
+                </div>
+                <div className="resume">
+                    <p>Download My <a download="VadimStakhnyuk_Resume.pdf" href={require("../VadimStakhnyuk_Resume.pdf")} target="_blank" rel="noopener noreferrer"> Resume</a></p>
                 </div>
                 {/* <div className="downArrow">
                     <Link

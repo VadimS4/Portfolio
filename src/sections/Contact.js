@@ -4,6 +4,8 @@ import email from '@iconify/icons-mdi/email-edit';
 import phone from '@iconify/icons-el/phone';
 import location from '@iconify/icons-entypo/location';
 
+import '../styling/contact.css';
+
 class Contact extends Component {
     render() {
         return(

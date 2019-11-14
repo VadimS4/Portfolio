@@ -12,6 +12,8 @@ import html from '@iconify/icons-logos/html-5';
 import postgresql from '@iconify/icons-logos/postgresql';
 import heroku from '@iconify/icons-logos/heroku';
 
+import '../styling/about.css';
+
 class About extends Component {
     render() {
         return(

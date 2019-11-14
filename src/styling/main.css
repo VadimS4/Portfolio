@@ -1,0 +1,92 @@
+.main-section {
+  height: 100vh;
+  min-height: 100%;
+  max-height: 100%;
+  background-image: url('../images/main-background.jpg');
+}
+
+
+.main-section .title {
+  color: white;
+  font-size: 5em;
+  padding: 5%;
+  text-align: center;
+  margin-bottom: -150px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    div {
+        text-align: center;
+    }
+
+    div i {
+        text-align: center;
+    }
+
+    .main-section .title p {
+        text-align: center;
+        font-size: 0.6em;
+        padding: 5%;
+        margin-top: 30%;
+    }
+
+    .main-section .subtitle p {
+        text-align: center;
+        font-size: 0.7em;
+        margin-top: 30%;
+    }
+
+    .main-section .icons i{
+        font-size: 2.5em;
+        display: inline;
+        margin: auto;
+        margin-left: -10%;
+    }
+}
+
+.main-section .subtitle {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+.main-section .resume {
+  color: white;
+  text-align: center;
+  font-size: larger;
+}
+
+.main-section .resume a{
+  color: white;
+}
+
+.main-section .icons {
+  color: white;
+  padding: 100px;
+  text-align: center;
+  
+}
+
+.main-section .icons .githubButton {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.main-section .icons .linkedinButton {
+  color: white;
+  text-decoration: none;
+}
+
+.main-section .icons .twitterButton {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.main-section .icons .mediumButton {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+}

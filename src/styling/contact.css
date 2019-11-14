@@ -1,0 +1,68 @@
+.contact-section {
+  display: flex;
+}
+
+.contact-section .contact-image {
+  height: 100vh;
+  min-height: 100%;
+  max-height: 100%;
+  width: 50%;
+  background-image: url('../images/seattle_background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-section .contact-info {
+  background-color: #5f5b6b;
+  height: 100vh;
+  min-height: 100%;
+  max-height: 100%;
+  width: 50%;
+}
+
+.contact-section .contact-info .emailInfo {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 40%;
+}
+
+.contact-section .contact-info .email{
+  color: black;
+  font-size: 1.5em;
+  margin-left: 10%;
+  padding-top: 40%;
+  display: inline-flex;
+}
+
+.contact-section .contact-info .email .emailText {
+  width: 275px;
+  padding-left: 20%;
+}
+
+.contact-section .contact-info .phone {
+  color: black;
+  font-size: 1.5em;
+  margin-left: 10%;
+  padding-top: 7%;
+  display: inline-flex;
+}
+
+.contact-section .contact-info .phone .phoneText {
+  width: 275px;
+  padding-left: 25%;
+  margin-top: 2%;
+}
+
+.contact-section .contact-info .location {
+  color: black;
+  font-size: 1.5em;
+  margin-left: 10%;
+  padding-top: 7%;
+  display: inline-flex;
+}
+
+.contact-section .contact-info .location .locationText {
+  width: 300px;
+  padding-left: 20%;
+}
