@@ -1,0 +1,23 @@
+.about-section {
+  height: 100vh;
+  min-height: 100%;
+  max-height: 100%;
+  background-color: #7F7979;
+}
+
+.about-description {
+  color: white;
+  width: 50%;
+  font-size: 1.15em;
+  padding: 7%;
+}
+
+.about-section .icons {
+  text-align: right;
+  margin-right: 10%;
+  position: flex;
+}
+
+.about-section .icons .icon {
+  margin-right: 2%;
+}

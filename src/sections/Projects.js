@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Card, Image, Icon } from 'semantic-ui-react';
 
+import '../styling/projects.css';
+
 class Projects extends Component {
     render() {
         return(
@@ -81,7 +83,7 @@ class Projects extends Component {
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content textAlign="center" extra>
-                                <p>Ruby</p>
+                                <p>Ruby, NYT API</p>
                             </Card.Content>
                             <Card.Content textAlign="center" extra>
                                 <Icon name="github" />
