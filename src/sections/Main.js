@@ -29,7 +29,7 @@ class Main extends Component {
                     </Button>
                 </div>
                 <div className="resume">
-                    <p>Download My <a download="VadimStakhnyuk_Resume.pdf" href={require("../VadimStakhnyuk_Resume.pdf")} target="_blank" rel="noopener noreferrer"> Resume</a></p>
+                    <p>Download <a download="VadimStakhnyuk_Resume.pdf" href={require("../VadimStakhnyuk_Resume.pdf")} target="_blank" rel="noopener noreferrer"> Resume</a></p>
                 </div>
                 {/* <div className="downArrow">
                     <Link

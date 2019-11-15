@@ -1,13 +1,15 @@
 .navbar {
   position: fixed;
-  top: 2%;
+  height: 80px;
   width: 100%;
-  right: 2%;
+  background-image: url('../images/main-background.jpg');
 }
 
 .navbar ul {
   list-style: none;
   text-align: right;
+  margin-top: 1.5%;
+  margin-right: 2%;
 }
 
 .navbar ul li {
@@ -20,4 +22,10 @@
 
 .navbar-item > .active {
   border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        display: none;
+    }
 }
