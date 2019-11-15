@@ -8,7 +8,7 @@ class Projects extends Component {
         return(
             <div className="projects-section" id="projects">
                 <div className="projectCards">
-                    <Card.Group itemsPerRow={4}>
+                    <Card.Group itemsPerRow={1}>
                         <Card className="Card">
                             <Image src={require('../images/FishLand.png')} wrapped-ui={false} />
                             <Card.Content>

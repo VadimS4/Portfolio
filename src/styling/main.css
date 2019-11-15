@@ -1,17 +1,19 @@
 .main-section {
   height: 100vh;
-  min-height: 100%;
-  max-height: 100%;
   background-image: url('../images/main-background.jpg');
 }
 
+.main-section div {
+    display: block;
+}
 
 .main-section .title {
   color: white;
-  font-size: 5em;
-  padding: 5%;
+  font-size: 6rem;
+  padding: 1px;
   text-align: center;
-  margin-bottom: -150px;
+  height: 17%;
+  margin-bottom: 120px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -24,24 +26,23 @@
         text-align: center;
     }
 
-    .main-section .title p {
+    .main-section .title {
         text-align: center;
-        font-size: 0.6em;
-        padding: 5%;
-        margin-top: 30%;
+        height: 70px;
+        font-size: 3rem;
+        padding: 15%;
     }
 
     .main-section .subtitle p {
         text-align: center;
         font-size: 0.7em;
-        margin-top: 30%;
+        margin-bottom: 10%;
     }
 
     .main-section .icons i{
         font-size: 2.5em;
         display: inline;
         margin: auto;
-        margin-left: -10%;
     }
 }
 
@@ -49,12 +50,15 @@
   color: white;
   font-size: 2em;
   text-align: center;
+  height: 5%;
+  margin-bottom: 120px;
 }
 
 .main-section .resume {
   color: white;
+  height: 2%;
   text-align: center;
-  font-size: larger;
+  font-size: 1.5rem;
 }
 
 .main-section .resume a{
@@ -63,9 +67,8 @@
 
 .main-section .icons {
   color: white;
-  padding: 100px;
   text-align: center;
-  
+  margin-bottom: 70px;
 }
 
 .main-section .icons .githubButton {
