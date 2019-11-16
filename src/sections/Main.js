@@ -9,7 +9,7 @@ class Main extends Component {
         return(
             <div className="main-section" id="main">
                 <div className="title">
-                    <p>Vadim Stakhnyuk</p>
+                    <h1 className="name">Vadim Stakhnyuk</h1>
                 </div>
                 <div className="subtitle">
                     <p>Software Engineer</p>
