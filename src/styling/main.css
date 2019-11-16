@@ -3,16 +3,12 @@
   background-image: url('../images/main-background.jpg');
 }
 
-.main-section div {
-    display: block;
-}
-
 .main-section .title {
   color: white;
   font-size: 6rem;
-  padding: 1px;
+  padding: 50px;
   text-align: center;
-  height: 17%;
+  height: 15%;
   margin-bottom: 120px;
 }
 

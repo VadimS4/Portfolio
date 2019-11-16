@@ -1,22 +1,19 @@
 .about-section {
   height: 100vh;
-  width: auto;
-  min-height: 100%;
-  max-height: 100%;
   background-color: #7F7979;
 }
 
 .about-description {
   color: white;
-  width: 50%;
-  font-size: 1.15em;
+  width: 65%;
+  font-size: 1.5em;
   padding: 7%;
 }
 
 .about-section .icons {
   text-align: right;
-  margin-right: 10%;
-  position: flex;
+  margin-right: 5%;
+  padding-bottom: 6.75%;
 }
 
 .about-section .icons .icon {
@@ -26,5 +23,14 @@
 @media only screen and (max-width: 480px) {
     .about-section {
         height: auto;
+    }
+
+    .about-section div {
+        width: auto;
+        text-align: center;
+    }
+
+    .about-section .icons {
+        display: none;
     }
 }

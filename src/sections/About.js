@@ -19,9 +19,8 @@ class About extends Component {
         return(
             <div className="about-section" id="about">
                 <div className="about-description">
-                    <p>I am a Software Engineer with a deep desire to leverage my fluency in Russian and Ukrainian to make a deep impact in technology. </p> 
-                    <p>In college, I planned to become an Electrical Engineer. After taking some electrical circuit classes, my desire for that path slowly died. I decided to pivot and started taking classes in computer science. Building out small GUI (graphic-user-interface) applications with Visual Basic proved to be much more engaging for me. Everything clicked together and I knew I had a passion for coding. I loved looking at a screen with multiple lines of multi-color words. I loved writing code and watching my code come to life.</p>
-                    <p>In present day, I have strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, and CSS. I also have experience using MySQL, PostgreSQL, Heroku, and various styling frameworks. </p>
+                    <p>I am a Software Engineer with strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, and CSS. I also have experience using MySQL, PostgreSQL, Heroku, and various styling frameworks. </p>
+                    <p>In college, I pursued Electrical Engineering. Required were some introductory programming courses which drew me into programming! In those courses, building out small GUI (graphic-user-interface) applications with Visual Basic proved to be much more engaging to me than working with electrical circuits. Everything clicked together and I knew I had a passion for coding. Watching my lines of code come to life in my applications became something that I really enjoy doing.</p>
                 </div>
                 <div className="icons">
                     <Icon icon={javascript} width={75} height={75} className="icon"/>
