@@ -96,6 +96,9 @@ class Projects extends Component {
                         </Card>
                     </Card.Group>
                 </div>
+                <div className="heroku_warning">
+                    <p>Website's are hosted using Heroku and may take a few minutes to spin up! Thanks for being Patient.</p>
+                </div>
             </div>
         )
     }
