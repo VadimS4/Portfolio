@@ -1,33 +1,20 @@
 .main-section {
   height: 100vh;
   background-image: url('../images/main-background.jpg');
-}
-
-.main-section .title {
-  color: white;
-  padding: 8%;
-  font-size: 3.5rem;
   text-align: center;
-  height: 10%;
-  margin-bottom: 10px;
 }
 
-.main-section .title .name {
-    margin-bottom: 10%;
-}
-
-.main-section .subtitle {
+.main-section h1 {
   color: white;
-  font-size: 2em;
-  text-align: center;
-  height: 5%;
-  margin-bottom: 120px;
+  margin-top: auto;
+}
+
+.main-section h2 {
+  color: white;
 }
 
 .main-section .resume {
   color: white;
-  height: 2%;
-  text-align: center;
   font-size: 1.5rem;
 }
 
@@ -37,14 +24,12 @@
 
 .main-section .icons {
   color: white;
-  text-align: center;
-  margin-bottom: 70px;
 }
 
 .main-section .icons .githubButton {
   color: white;
   text-decoration: none;
-  margin-right: 40px;
+  margin-right: 2em;
 }
 
 .main-section .icons .linkedinButton {
@@ -55,41 +40,11 @@
 .main-section .icons .twitterButton {
   color: white;
   text-decoration: none;
-  margin-left: 40px;
+  margin-left: 2em;
 }
 
 .main-section .icons .mediumButton {
   color: white;
   text-decoration: none;
-  margin-left: 40px;
-}
-
-@media only screen and (max-width: 480px) {
-
-    div {
-        text-align: center;
-    }
-
-    div i {
-        text-align: center;
-    }
-
-    .main-section .title {
-        text-align: center;
-        height: 70px;
-        font-size: 3rem;
-        padding: 15%;
-    }
-
-    .main-section .subtitle p {
-        text-align: center;
-        font-size: 0.7em;
-        margin-bottom: 10%;
-    }
-
-    .main-section .icons i{
-        font-size: 2.5em;
-        display: inline;
-        margin: auto;
-    }
+  margin-left: 2em;
 }

@@ -1,4 +1,8 @@
 .navbar {
+  display: none;
+}
+
+/* .navbar {
   position: fixed;
   z-index: 1;
   height: 80px;
@@ -25,8 +29,8 @@
   border-bottom: 1px solid white;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 24em) {
     .navbar {
         display: none;
     }
-}
+} */
