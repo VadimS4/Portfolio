@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Image, Icon } from 'semantic-ui-react';
+// import { Card, Image, Icon } from 'semantic-ui-react';
 
 import '../styling/projects.css';
 
@@ -7,8 +7,48 @@ class Projects extends Component {
     render() {
         return(
             <div className="projects-section" id="projects">
-                <div className="projectCards">
-                    <Card.Group >
+                <section className="projectCards">
+                    <article class="card">
+                        <a href="#">
+                            <picture class="thumbnail">
+                                <img src={require('../images/FishLand.png')} alt="fishland"></img>
+                                <div class="card-content">
+                                    <h2>FishLand</h2>
+                                </div>
+                            </picture>
+                        </a>
+                    </article>
+                    <article class="card">
+                        <a href="#">
+                            <picture class="thumbnail">
+                                <img src={require('../images/FishLand.png')} alt="fishland"></img>
+                                <div class="card-content">
+                                    <h2>FishLand</h2>
+                                </div>
+                            </picture>
+                        </a>
+                    </article>
+                    <article class="card">
+                        <a href="#">
+                            <picture class="thumbnail">
+                                <img src={require('../images/FishLand.png')} alt="fishland"></img>
+                                <div class="card-content">
+                                    <h2>FishLand</h2>
+                                </div>
+                            </picture>
+                        </a>
+                    </article>
+                    <article class="card">
+                        <a href="#">
+                            <picture class="thumbnail">
+                                <img src={require('../images/FishLand.png')} alt="fishland"></img>
+                                <div class="card-content">
+                                    <h2>FishLand</h2>
+                                </div>
+                            </picture>
+                        </a>
+                    </article>
+                    {/* <Card.Group >
                         <Card className="Card">
                             <Image src={require('../images/FishLand.png')} wrapped-ui={false} />
                             <Card.Content>
@@ -94,8 +134,8 @@ class Projects extends Component {
                                 <a href="https://www.youtube.com/watch?v=3lnWob63pY4" target="_blank" rel="noopener noreferrer">Video Demo</a>
                             </Card.Content>
                         </Card>
-                    </Card.Group>
-                </div>
+                    </Card.Group> */}
+                </section>
                 <div className="heroku_warning">
                     <p>Website's are hosted using Heroku and may take a few minutes to spin up! Thanks for being Patient.</p>
                 </div>

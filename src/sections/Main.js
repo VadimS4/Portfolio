@@ -26,7 +26,7 @@ class Main extends Component {
                         </Button>
                     </div>
                     <div className="resume">
-                        <p>Download <a download="VadimStakhnyuk_Resume.pdf" href={require("../VadimStakhnyuk_Resume.pdf")} target="_blank" rel="noopener noreferrer"> Resume</a></p>
+                        <p>View <a href="https://s3.amazonaws.com/attachments.angel.co/4133052-76ce77ba1eae12c8e8a316570c26da76.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJS6W3HGZGRJIRBTA%2F20200124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200124T103255Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4e9499843d769167a86148c6639cd22b18bdac3849596bf9fce7f15688b95fe8" target="_blank" rel="noopener noreferrer"> Resume</a></p>
                     </div>
                 </div>
                 {/* <div className="downArrow">
