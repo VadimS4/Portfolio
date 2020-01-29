@@ -26,13 +26,17 @@ class Projects extends Component {
                                     </p>
                                     <hr></hr>
                                     <p className="technologies" >Javascript, React, Redux, Ruby on Rails, Mechanize, CSS, OAuth, Postgres</p>
-                                    <div className="github-buttons">
-                                        <Icon name="github" size="large"/>
-                                        <a href="https://github.com/VadimS4/Fishland-frontend" target="_blank" rel="noopener noreferrer"><button> Frontend</button></a>
-                                        <a href="https://github.com/VadimS4/Fishland-backend" target="_blank" rel="noopener noreferrer"><button> Backend</button></a>
+                                    <div className="demo-buttons">
+                                        <div className="fishland-github-buttons">
+                                            <Icon name="github" size="large" className="demo-icons"/>
+                                            <a href="https://github.com/VadimS4/Fishland-frontend" target="_blank" rel="noopener noreferrer"><button> Frontend</button></a>
+                                            <a href="https://github.com/VadimS4/Fishland-backend" target="_blank" rel="noopener noreferrer"><button> Backend</button></a>
+                                        </div>
+                                        <div>
+                                            <Icon name="computer" size="large" className="demo-icons"/>
+                                            <a href="https://fishland-application.herokuapp.com" target="_blank" rel="noopener noreferrer"><button> Live Demo</button></a>
+                                        </div>
                                     </div>
-                                    <Icon name="computer" size="large"/>
-                                    <a href="https://fishland-application.herokuapp.com" target="_blank" rel="noopener noreferrer"><button> Live Demo</button></a>
                                 </div>
                             </picture>
                         </div>
@@ -51,17 +55,17 @@ class Projects extends Component {
                                     </p>
                                     <hr></hr>
                                     <p className="technologies">Ruby on Rails, CSS, BCrypt, CRUD, MVC</p>
-                                    <div className="carfinder-buttons">
+                                    <div className="demo-buttons">
                                         <div>
-                                            <Icon name="github" size="large"/>
+                                            <Icon name="github" size="large" className="demo-icons"/>
                                             <a href="https://github.com/calebwatters/Carfinder" target="_blank" rel="noopener noreferrer"><button> GitHub</button></a>
                                         </div>
                                         <div>
-                                            <Icon name="youtube" size="large"/>
+                                            <Icon name="computer" size="large" className="demo-icons"/>
                                             <a href="https://still-plateau-78887.herokuapp.com" target="_blank" rel="noopener noreferrer"><button> Live Demo</button></a>
                                         </div>
                                         <div>
-                                            <Icon name="computer" size="large"/>
+                                            <Icon name="youtube" size="large" className="demo-icons"/>
                                             <a href="https://www.youtube.com/watch?v=sSO9WuqW_FM&t=2s" target="_blank" rel="noopener noreferrer"><button> Video Demo</button></a>
                                         </div>
                                     </div>
@@ -83,11 +87,15 @@ class Projects extends Component {
                                     </p>
                                     <hr></hr>
                                     <p className="technologies">Javascript, Ruby on Rails, CSS, DOM, CRUD</p>
-                                    <div>
-                                        <Icon name="github" size="large"/>
-                                        <a href="https://github.com/dtFocuS/noteminder-front-end" target="_blank" rel="noopener noreferrer"><button> GitHub</button></a>
-                                        <Icon name="youtube" size="large"/>
-                                        <a href="https://www.youtube.com/watch?v=CUi3I-lQxiE&feature=youtu.be" target="_blank" rel="noopener noreferrer"><button> Video Demo</button></a>
+                                    <div className="demo-buttons">
+                                        <div>
+                                            <Icon name="github" size="large" className="demo-icons"/>
+                                            <a href="https://github.com/dtFocuS/noteminder-front-end" target="_blank" rel="noopener noreferrer"><button> GitHub</button></a>
+                                        </div>
+                                        <div>
+                                            <Icon name="youtube" size="large" className="demo-icons"/>
+                                            <a href="https://www.youtube.com/watch?v=CUi3I-lQxiE&feature=youtu.be" target="_blank" rel="noopener noreferrer"><button> Video Demo</button></a>
+                                        </div>
                                     </div>
                                 </div>
                             </picture>
@@ -102,11 +110,21 @@ class Projects extends Component {
                                     <hr className="NYTtitleHR"></hr>
                                     <p>The NYTimes Bookmark Tool is a CLI application written in Ruby that allows users to interact with the New York Times Top Stories API.</p>
                                     <hr></hr>
+                                    <p>
+                                        The NYTimes Bookmarking Tool was an application built on the basis of practicing Object Oriented Programming. This application also uses REST API services from the New York Times to collect and present data. The CLI app uses a secure login system, where you can create an account and access the top New York Times stories.
+                                    </p>
+                                    <hr></hr>
                                     <p className="technologies">Ruby, NYT API</p>
-                                    <Icon name="github" />
-                                    <a href="https://github.com/milandhar/guided-module-one-project-assessment-seattle-web-career-042219" target="_blank" rel="noopener noreferrer"><button> GitHub</button></a>
-                                    <Icon name="youtube" />
-                                    <a href="https://www.youtube.com/watch?v=3lnWob63pY4" target="_blank" rel="noopener noreferrer"><button> Video Demo</button></a>
+                                    <div className="demo-buttons">
+                                        <div>
+                                            <Icon name="github" size="large" className="demo-icons"/>
+                                            <a href="https://github.com/milandhar/guided-module-one-project-assessment-seattle-web-career-042219" target="_blank" rel="noopener noreferrer"><button> GitHub</button></a>
+                                        </div>
+                                        <div>
+                                            <Icon name="youtube" size="large" className="demo-icons"/>
+                                            <a href="https://www.youtube.com/watch?v=3lnWob63pY4" target="_blank" rel="noopener noreferrer"><button> Video Demo</button></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </picture>
                         </div>

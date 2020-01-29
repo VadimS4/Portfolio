@@ -22,7 +22,7 @@ class About extends Component {
                     <p>I am a Software Engineer with strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, and CSS. I also have experience using MySQL, PostgreSQL, Heroku, and various styling frameworks. </p>
                     <p>In college, I pursued Electrical Engineering. In the process I took some introductory programming courses which drew me into programming! In those courses, I built out small GUI (graphic-user-interface) applications with Visual Basic. I really enjoyed the code writing process and watching the code that I had written come to life in all sorts of small applications. I decided to pivot my career and was part of The Flatiron School's Full Stack Software Engineering program where I learned to put my passion of software engineering into a professional skill!</p>
                 </div>
-                <div className="icons">
+                <div className="technology-icons">
                     <Icon icon={javascript} width={75} height={75} className="icon"/>
                     <Icon icon={react} width={75} height={75} className="icon"/>
                     <Icon icon={redux} width={75} height={75} className="icon"/>

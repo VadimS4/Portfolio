@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 10em;
+  padding-top: 6em;
 }
 
 .projectsTitle h1 {
@@ -31,7 +31,7 @@
 .card {
   flex: 1 0 clac(50% - 1em);
   box-sizing: border-box;
-  margin: 0em 1em 3em 1em;
+  margin: 0em 1em 3em 0em;
   box-shadow: 0 6px 8px rgba(0,0,0,0.8);
   transition: 0.2s;
   border-radius: 5px;
@@ -77,18 +77,22 @@
   margin-bottom: 1em;
 }
 
-.carfinder-buttons {
+.demo-buttons {
   display: flex;
-  align-content: space-between;
+  flex-direction: column;
   text-align: center;
+}
+
+.fishland-github-buttons button{
+  padding: 1em 1.5em;
 }
 
 .technologies {
   margin-bottom: 2em;
 }
 
-.icon {
-  padding: 0.5rem;
+.demo-icons {
+  padding: 1rem;
 }
 
 button {
