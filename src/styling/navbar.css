@@ -1,16 +1,22 @@
 .navbar {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   z-index: 3;
-  height: 80px;
+  height: 7em;
   width: 100%;
   background-image: url('../images/main-background.jpg');
+  transition: height 0.5s;
+}
+
+.navbar.smaller {
+  height: 4em;
 }
 
 .navbar ul {
   list-style: none;
-  text-align: right;
-  margin-top: 1.5%;
-  margin-right: 2%;
+  margin-right: 2em;
 }
 
 .navbar ul li {
@@ -19,6 +25,17 @@
   padding-right: 25px;
   display: inline;
   cursor: pointer;
+}
+
+.myName {
+  display: none;
+  transition: all 0.5s;
+}
+
+.myName.appear {
+  display: inline;
+  color: white;
+  margin-right: 28em;
 }
 
 .navbar-item > .active {
