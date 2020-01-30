@@ -1,7 +1,7 @@
 .projects-section {
   height: auto;
   width: 100%;
-  background-color: lightgray;
+  background-color: #C5C6C7;
 }
 
 .projectsTitle {
@@ -35,9 +35,14 @@
   box-shadow: 0 6px 8px rgba(0,0,0,0.8);
   transition: 0.2s;
   border-radius: 5px;
-  background-color: grey;
+  color: white;
+  background-color: #1F2833;
   width: 30em;
 }
+
+/* .cardTitle {
+  
+} */
 
 .titleHR {
   display: block;
@@ -99,6 +104,7 @@ button {
   display: inline-block;
   color: #000000;
   padding: 1em 3em;
+  background-color: #DEF2F1;
   border: 0.1em solid #000000;
   margin: 0 1em 0.2em 0;
   border-radius: 0.5em;
@@ -112,7 +118,7 @@ button {
 button:hover {
   text-shadow: 0 0 2em rgba(255, 255, 255, 1);
   color: white;
-  background-color: black;
+  background-color: #17252A;
   border-color: white;
 }
 

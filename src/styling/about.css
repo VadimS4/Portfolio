@@ -1,34 +1,43 @@
 .about-section {
   position: relative;
   height: 100vh;
-  background-color: #3D3b3c;
+  background-color: #2B7A78;
 }
 
 .about-description {
-  position: absolute;
+  position: relative;
   color: white;
   flex-wrap: wrap;
+  display: flex;
+  align-content: center;
   padding: 1em;
-  width: 35em;
-  height: 17em;
-  font-size: 1.5em;
-  background-color: royalblue;
+  width: 55em;
+  height: 23em;
+  background-color: #17252A;
   z-index: 2;
-  left: 20em;
-  bottom: 1.5em;
+  left: 28em;
+  top: 19em;
+  border-radius: 0.5em;
+}
+
+.about-description p{
+  font-size: 1.35rem;
+  margin: 1rem 1rem 0.5rem 1rem;
 }
 
 .technology-icons {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-wrap: wrap;
+  align-content: space-around;
   padding: 2em;
-  bottom: 21em;
+  bottom: 15em;
   left: 5em;
   width: 33em;
   height: 14em;
   z-index: 1;
-  background-color: white;
+  background-color: #C5C6C7;
+  border-radius: 0.5em;
 }
 
 .about-section .icons .icon {
