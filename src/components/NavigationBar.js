@@ -12,24 +12,24 @@ class NavigationBar extends Component {
     resizeHeaderOnScroll() {
         const distanceY = window.pageYOffset || document.documentElement.scrollTop,
             shrinkOn = 150,
-            headerEl = document.getElementById("navbar"),
-            nameAppear = document.getElementById("myName")
+            headerEl = document.getElementById("navbar");
+            // nameAppear = document.getElementById("myName")
 
         if (distanceY > shrinkOn) {
             headerEl.classList.add("smaller")
-            nameAppear.classList.add("appear")
+            // nameAppear.classList.add("appear")
         } else {
             headerEl.classList.remove("smaller")
-            nameAppear.classList.remove("appear")
+            // nameAppear.classList.remove("appear")
         }
     }
 
     render() {
         return (
             <div className="navbar" id="navbar">
-                <h2 className="myName" id="myName">Vadim Stakhnyuk</h2>
                 <header id="navigationBar">
                     <ul className="navbarUL">
+                        {/* <h2 className="myName" id="myName">Vadim Stakhnyuk</h2> */}
                         <li className="navbar-item">
                             <Link
                                 activeClass="active"
