@@ -1,22 +1,22 @@
 .about-section {
-  position: relative;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: auto;
   background-color: #2B7A78;
 }
 
 .about-description {
-  position: relative;
   color: white;
   flex-wrap: wrap;
-  display: flex;
   align-content: center;
+  justify-content: center;
   padding: 1em;
-  width: 55em;
-  height: 23em;
+  margin: 3em 1em 3em 1em;
+  height: fit-content;
   background-color: #17252A;
-  z-index: 2;
-  left: 28em;
-  top: 17.5em;
+  /* z-index: 2; */
   border-radius: 0.5em;
 }
 
@@ -25,36 +25,45 @@
   margin: 1rem 1rem 0.5rem 1rem;
 }
 
-.technology-icons {
-  position: relative;
+.about-image {
+  display: none;
+  /* position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
-  padding: 2em;
-  bottom: 17em;
-  left: 5em;
-  width: 33em;
-  height: 14em;
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: auto;
+  top: 5em;
+  right: 45em;
+  width: 50em;
+  height: 15em;
   z-index: 1;
-  background-color: #C5C6C7;
-  border-radius: 0.5em;
+  border-radius: 0.5em; */
 }
 
-.about-section .icons .icon {
-  margin-right: 2%;
+.technology-icons {
+  display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 55em) {
     .about-section {
-        height: auto;
+      
     }
 
-    .about-section div {
-        width: auto;
-        text-align: center;
+    .about-description {
+      max-width: calc(95% - 1em);
+      justify-content: center;
+      align-items: center;
     }
 
-    .about-section .icons {
-        display: none;
+    .technology-icons {
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+      flex-flow: row wrap;
+      height: fit-content;
+      padding-bottom: 3.5em;
+      width: 100%;
+      align-items: flex-end;
     }
 }

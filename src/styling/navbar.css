@@ -27,17 +27,6 @@
   cursor: pointer;
 }
 
-.myName {
-  display: none;
-  transition: all 0.5s;
-}
-
-.myName.appear {
-  display: inline;
-  color: white;
-  margin-right: 28em;
-}
-
 .navbar-item > .active {
   border-bottom: 1px solid white;
 }

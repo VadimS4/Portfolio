@@ -10,7 +10,6 @@ import mysql from '@iconify/icons-logos/mysql';
 import css from '@iconify/icons-logos/css-3';
 import html from '@iconify/icons-logos/html-5';
 import postgresql from '@iconify/icons-logos/postgresql';
-import heroku from '@iconify/icons-logos/heroku';
 
 import '../styling/about.css';
 
@@ -19,8 +18,12 @@ class About extends Component {
         return(
             <div className="about-section" id="about">
                 <div className="about-description">
-                    <p>I am a Software Engineer with strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, and CSS. I also have experience in databases as well as SQL, hosting technologies such as Heroku, and various styling libraries. </p>
-                    <p>In college, I pursued Electrical Engineering. In the process I took some introductory programming courses which drew me into programming! In those courses, I built out small GUI (graphic-user-interface) applications with Visual Basic. I really enjoyed the code writing process and watching the code that I had written come to life in all sorts of small applications. I decided to pivot my career and was part of The Flatiron School's Full Stack Software Engineering program where I learned to put my passion of software engineering into a professional skill!</p>
+                    <p>I am a Software Engineer with strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, and CSS. I also have experience with databases, SQL, hosting technologies such as Heroku, and various styling libraries. </p>
+                    <p>I was a student at The Flatiron School in their Full Stack Software Engineering program where I learned full stack web development and major programming principles such as Object Oriented Programming. I have practice using Model-View-Controller structures, as well as implementing full CRUD in my applications.</p>
+                    <p>I take ideas and turn them into stunning websites!</p>
+                </div>
+                <div className="about-image">
+                    <img src={require('../images/Software-Engineer-image.jpg')} alt=""></img>
                 </div>
                 <div className="technology-icons">
                     <Icon icon={javascript} width={75} height={75} className="icon"/>
@@ -33,7 +36,6 @@ class About extends Component {
                     <Icon icon={postgresql} width={75} height={75} className="icon"/>
                     <Icon icon={css} width={75} height={75} className="icon"/>
                     <Icon icon={html} width={75} height={75} className="icon"/>
-                    <Icon icon={heroku} width={75} height={75} className="icon"/>
                 </div>
             </div>
         )

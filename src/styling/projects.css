@@ -31,7 +31,7 @@
 .card {
   flex: 1 0 clac(50% - 1em);
   box-sizing: border-box;
-  margin: 0em 1em 3em 0em;
+  margin: 0em 1em 3em 1em;
   box-shadow: 0 6px 8px rgba(0,0,0,0.8);
   transition: 0.2s;
   border-radius: 5px;
