@@ -13,7 +13,7 @@
   align-content: center;
   justify-content: center;
   padding: 1em;
-  margin: 3em 1em 3em 1em;
+  margin: 1em 1em 3em 1em;
   height: fit-content;
   background-color: #17252A;
   /* z-index: 2; */
@@ -45,13 +45,25 @@
   display: none;
 }
 
+.about-title {
+  display: flex;
+  align-self: center;
+  margin-bottom: 0.1em;
+  margin-top: 3em;
+}
+
+.aboutHR {
+  width: 10em;
+}
+
 @media only screen and (min-width: 55em) {
     .about-section {
-      
+      display: flex;
+      align-items: center;
     }
 
     .about-description {
-      max-width: calc(95% - 1em);
+      max-width: calc(80% - 1em);
       justify-content: center;
       align-items: center;
     }
