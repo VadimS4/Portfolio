@@ -17,6 +17,8 @@ class About extends Component {
     render() {
         return(
             <div className="about-section" id="about">
+                <h1 className="about-title">About</h1>
+                <hr className="aboutHR"></hr>
                 <div className="about-description">
                     <p>I am a Software Engineer with strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, and CSS. I also have experience with databases, SQL, hosting technologies such as Heroku, and various styling libraries. </p>
                     <p>I was a student at The Flatiron School in their Full Stack Software Engineering program where I learned full stack web development and major programming principles such as Object Oriented Programming. I have practice using Model-View-Controller structures, as well as implementing full CRUD in my applications.</p>
