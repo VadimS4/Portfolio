@@ -17,7 +17,7 @@
 
 .projectsHR {
   display: block;
-  width: 30%;
+  width: 15em;
 }
 
 .projects-section .projectCards {
@@ -144,6 +144,6 @@ img {
 
 @media screen and (min-width: 100em) {
   .card {
-    max-width: calc(25% - 1em);
+    max-width: calc(23% - 1em);
   }
 }

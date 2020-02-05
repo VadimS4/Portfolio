@@ -12,11 +12,11 @@ class Projects extends Component {
                     <hr className="projectsHR"></hr>
                 </div>
                 <section className="projectCards">
-                    <article class="card">
+                    <article className="card">
                         <div className="individual_card">
-                            <picture class="thumbnail">
+                            <picture className="thumbnail">
                                 <img src={require('../images/FishLand.png')} alt="fishland"></img>
-                                <div class="card-content">
+                                <div className="card-content">
                                     <h2 className="cardTitle">FishLand</h2>
                                     <hr className="titleHR"></hr>
                                     <p>FishLand is an application that takes information about fishing and allows users to discover fish species along with good information about the fish and how to go fishing for it.</p>
@@ -41,11 +41,11 @@ class Projects extends Component {
                             </picture>
                         </div>
                     </article>
-                    <article class="card">
+                    <article className="card">
                         <div className="individual_card">
-                            <picture class="thumbnail">
+                            <picture className="thumbnail">
                                 <img src={require('../images/CarFinder.png')} alt="fishland"></img>
-                                <div class="card-content">
+                                <div className="card-content">
                                     <h2 className="cardTitle">CarFinder</h2>
                                     <hr className="titleHR"></hr>
                                     <p>CarFinder is an application for anyone who is interested in listing a vehicle and receiving feedback from other users.</p>
@@ -73,11 +73,11 @@ class Projects extends Component {
                             </picture>
                         </div>
                     </article>
-                    <article class="card">
+                    <article className="card">
                         <div className="individual_card">
-                            <picture class="thumbnail">
+                            <picture className="thumbnail">
                                 <img src={require("../images/NoteMinder.png")} alt="fishland"></img>
-                                <div class="card-content">
+                                <div className="card-content">
                                     <h2 className="cardTitle">NoteMinder</h2>
                                     <hr className="titleHR"></hr>
                                     <p>NoteMinder is an application that takes Apple's "Notes" and "Reminder" applications and combines the utility of both applications.</p>
@@ -101,11 +101,11 @@ class Projects extends Component {
                             </picture>
                         </div>
                     </article>
-                    <article class="card">
+                    <article className="card">
                         <div className="individual_card">
-                            <picture class="thumbnail">
+                            <picture className="thumbnail">
                                 <img src={require('../images/NewYorkTimes.png')} alt="fishland"></img>
-                                <div class="card-content">
+                                <div className="card-content">
                                     <h2 className="cardTitle">NYTimes Bookmarking Tool</h2>
                                     <hr className="NYTtitleHR"></hr>
                                     <p>The NYTimes Bookmark Tool is a CLI application written in Ruby that allows users to interact with the New York Times Top Stories API.</p>
