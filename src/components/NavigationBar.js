@@ -11,66 +11,68 @@ class NavigationBar extends Component {
 
     resizeHeaderOnScroll() {
         const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            shrinkOn = 150,
-            headerEl = document.getElementById("navbar");
-            // nameAppear = document.getElementById("myName")
+            shrinkOn = 200,
+            headerEl = document.getElementById("navbar"),
+            nameAppear = document.getElementById("myName")
 
         if (distanceY > shrinkOn) {
             headerEl.classList.add("smaller")
-            // nameAppear.classList.add("appear")
+            nameAppear.classList.add("appear")
         } else {
             headerEl.classList.remove("smaller")
-            // nameAppear.classList.remove("appear")
+            nameAppear.classList.remove("appear")
         }
     }
 
     render() {
         return (
             <div className="navbar" id="navbar">
-                <header id="navigationBar">
-                    <ul className="navbarUL">
-                        {/* <h2 className="myName" id="myName">Vadim Stakhnyuk</h2> */}
-                        <li className="navbar-item">
-                            <Link
-                                activeClass="active"
-                                to="main"
-                                spy={true}
-                                smooth={true}
-                                offset={0}
-                                duration={500}
-                            >Main</Link>
-                        </li>
-                        <li className="navbar-item">
-                            <Link
-                                activeClass="active"
-                                to="projects"
-                                spy={true}
-                                smooth={true}
-                                offset={0}
-                                duration={500}
-                            >Projects</Link>
-                        </li>
-                        <li className="navbar-item">
-                            <Link
-                                activeClass="active"
-                                to="about"
-                                spy={true}
-                                smooth={true}
-                                offset={0}
-                                duration={500}
-                            >About</Link>
-                        </li>
-                        <li className="navbar-item">
-                            <Link
-                                activeClass="active"
-                                to="contact-section"
-                                spy={true}
-                                smooth={true}
-                                offset={0}
-                                duration={500}
-                            >Contact</Link>
-                        </li>
-                    </ul>
+                <h2 className="myName" id="myName">Vadim Stakhnyuk</h2>
+                <header className="navigationBar">
+                    <div className="ULdiv">
+                        <ul className="navbarUL">
+                            <li className="navbar-item">
+                                <Link
+                                    activeClass="active"
+                                    to="main"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >Main</Link>
+                            </li>
+                            <li className="navbar-item">
+                                <Link
+                                    activeClass="active"
+                                    to="projects"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >Projects</Link>
+                            </li>
+                            <li className="navbar-item">
+                                <Link
+                                    activeClass="active"
+                                    to="about"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >About</Link>
+                            </li>
+                            <li className="navbar-item">
+                                <Link
+                                    activeClass="active"
+                                    to="contact-section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </header>
             </div>
         )
