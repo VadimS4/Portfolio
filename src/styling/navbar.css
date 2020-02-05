@@ -2,7 +2,7 @@
   position: fixed;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  flex-direction: row;
   z-index: 3;
   height: 7em;
   width: 100%;
@@ -10,8 +10,30 @@
   transition: height 0.5s;
 }
 
+header {
+  width: 100%;
+  text-align: right;
+}
+
 .navbar.smaller {
   height: 3.5em;
+}
+
+.ULdiv {
+  display: inline-flex;
+  text-align: right;
+}
+
+.myName {
+  display: none;
+}
+
+.myName.appear {
+  color: white;
+  display: inline-flex;
+  text-align: left;
+  margin-left: 2em;
+  width: 40%;
 }
 
 .navbar ul {
