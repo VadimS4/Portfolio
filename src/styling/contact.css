@@ -1,98 +1,107 @@
 .contact-section {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   height: 100vh;
-  width: 100%;
   justify-content: center;
   background-color: #17252A;
 }
 
-/* .contact-section .contact-image {
-  height: auto;
-  min-height: 100%;
-  max-height: 100%;
-  width: 50%;
-  background-image: url('../images/seattle_background.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
+.contact-Title {
+  color: white;
+  text-align: center;
+  margin: 0em 0 1em 0;
+}
+
+.contact-Title hr {
+  width: 17em;
+}
 
 .contact-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
   align-self: center;
   background-color: #2b7a78;
-  width: 80%;
+  width: 85%;
   border-radius: 1em;
   height: fit-content;
+}
+
+.contact-info p {
+  text-align: center;
+  margin-left: 2em;
+  align-self: center;
+  font-size: 1.3rem;
+}
+
+.emailA {
+  align-self: center;
+  font-size: 1.3rem;
+  flex-shrink: 1;
+}
+
+.phoneA {
+  align-self: center;
+  margin-left: 2em;
+  text-decoration: none;
+  font-size: 1.5rem;
+  flex-shrink: 1;
 }
 
 .email {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding: 1em;
+  justify-content: center;
+  padding: 2em;
+  flex-shrink: 1;
 }
 
 .phone {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding: 1em;
+  justify-content: center;
+  padding: 2em;
 }
 
 .location {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding: 1em;
+  justify-content: center;
+  padding: 2em;
 }
 
-.contact-icons {
-  display: inline-block;
-  border-radius: 3em;
-  box-shadow: 0px 0px 5px black;
-  padding: 0.5em 0.6em;
+.seattleImage {
+  display: none;
 }
 
-/* .contact-section .contact-info .email{
-  color: black;
-  font-size: 1.5em;
-  margin-left: 10%;
-  padding-top: 40%;
-  display: inline-flex;
-} */
+@media only screen and (min-width: 70em) {
+  .contact-block {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+  }
 
-/* .contact-section .contact-info .email .emailText {
-  width: 275px;
-  padding-left: 20%;
-} */
+  .phoneA {
+    font-size: 1.4em;
+  }
 
-/* .contact-section .contact-info .phone {
-  color: black;
-  font-size: 1.5em;
-  margin-left: 10%;
-  padding-top: 7%;
-  display: inline-flex;
-} */
+  .contact-info {
+    display: flex;
+    flex-flow: row;
+  }
 
-/* .contact-section .contact-info .phone .phoneText {
-  width: 275px;
-  padding-left: 25%;
-  margin-top: 2%;
-} */
+  .seattleImage {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
 
-/* .contact-section .contact-info .location {
-  color: black;
-  font-size: 1.5em;
-  margin-left: 10%;
-  padding-top: 7%;
-  display: inline-flex;
-} */
-
-/* .contact-section .contact-info .location .locationText {
-  width: 300px;
-  padding-left: 20%;
-} */
+  .seattle-img {
+    align-self: center;
+    margin-top: 0;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+  }
+}

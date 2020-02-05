@@ -10,19 +10,27 @@ class Contact extends Component {
     render() {
         return(
             <div className="contact-section">
-                <div className="contact-image" id="contact"></div>
+                <div className="contact-Title">
+                    <h1>Contact Me</h1>
+                    <hr className="contactHR"></hr>
+                </div>
                 <div className="contact-info">
-                    <div className="email">
-                        <Icon className="contact-icons" icon={email} width={80} height={80} />
-                        <div className="emailText"><p>Send me an <a href="mailto: vstakhnyuk@outlook.com">Email</a></p></div>
+                    <div className="contact-block">
+                        <div className="email">
+                            <Icon className="contact-icons" icon={email} width={80} height={80} />
+                            <p>Send me an <a className="emailA" href="mailto: vstakhnyuk@outlook.com"> Email</a></p>
+                        </div>
+                        <div className="phone">
+                            <Icon className="contact-icons" icon={phone} width={70} height={70} />
+                            <a className="phoneA" href="tel: 425-772-0086">(425) 772-0086</a>
+                        </div>
+                        <div className="location">
+                            <Icon className="contact-icons" icon={location} width={60} height={60} />
+                            <p>Located in Seattle, WA</p>
+                        </div>
                     </div>
-                    <div className="phone">
-                        <Icon className="contact-icons" icon={phone} width={70} height={70} />
-                        <div className="phoneText"><a href="tel: 425-772-0086">(425) 772-0086</a></div>
-                    </div>
-                    <div className="location">
-                        <Icon className="contact-icons" icon={location} width={60} height={60} />
-                        <div className="locationText"><p>Located in Seattle, WA</p></div>
+                    <div className="seattleImage">
+                        <img className="seattle-img" src={require("../images/seattle_background.jpg")} alt=""></img>
                     </div>
                 </div>
             </div>

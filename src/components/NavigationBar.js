@@ -63,7 +63,7 @@ class NavigationBar extends Component {
                         <li className="navbar-item">
                             <Link
                                 activeClass="active"
-                                to="contact"
+                                to="contact-section"
                                 spy={true}
                                 smooth={true}
                                 offset={0}
