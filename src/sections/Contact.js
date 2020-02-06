@@ -5,6 +5,7 @@ import phone from '@iconify/icons-el/phone';
 import location from '@iconify/icons-entypo/location';
 
 import '../styling/contact.css';
+// import { Link } from 'react-scroll';
 
 class Contact extends Component {
     render() {
@@ -33,6 +34,19 @@ class Contact extends Component {
                         <img className="seattle-img" src={require("../images/seattle_background.jpg")} alt=""></img>
                     </div>
                 </div>
+                {/* <div className="backtotop-icon">
+                    <Link
+                        activeClass="active"
+                        to="main"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}>
+                        <div className="backtotop">
+                            <div className="backtotop-morph"></div>
+                        </div>
+                    </Link>
+                </div> */}
             </div>
         )
     }
