@@ -28,12 +28,17 @@
 .technology-icons {
     display: flex;
     align-self: center;
+    align-content: space-between;
     justify-content: space-between;
     flex-flow: wrap;
     height: fit-content;
     margin-top: 0.5em;
     margin-bottom: 4em;
     width: 90%;
+}
+
+.technology-icons svg {
+  margin: 1.25em 1.25em 1.25em 1.25em;
 }
 
 .about-title {
