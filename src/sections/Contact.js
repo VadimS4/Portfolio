@@ -34,19 +34,6 @@ class Contact extends Component {
                         <img className="seattle-img" src={require("../images/seattle_background.jpg")} alt=""></img>
                     </div>
                 </div>
-                {/* <div className="backtotop-icon">
-                    <Link
-                        activeClass="active"
-                        to="main"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}>
-                        <div className="backtotop">
-                            <div className="backtotop-morph"></div>
-                        </div>
-                    </Link>
-                </div> */}
             </div>
         )
     }

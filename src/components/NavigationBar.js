@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
-import '../styling/navbar.css'
+import '../styling/navbar.css';
 
-class NavigationBar extends Component {
+import MobileMenuButton from './mobileMenu/MobileMenuButton';
 
+class NavigationBar extends React.Component {
 
     componentDidMount() {
         window.addEventListener("scroll", this.resizeHeaderOnScroll);
@@ -28,6 +29,9 @@ class NavigationBar extends Component {
         return (
             <div className="navigation">
                 <div className="navbar" id="navbar">
+                    <div className="mobileDiv">
+                        <MobileMenuButton click={this.props.drawerClickHandler} />
+                    </div>
                     <h2 className="myName" id="myName">Vadim Stakhnyuk</h2>
                     <header className="navigationBar">
                         <div className="ULdiv">
@@ -75,56 +79,6 @@ class NavigationBar extends Component {
                             </ul>
                         </div>
                     </header>
-                </div>
-                <div className="mobile-navbar">
-                    <input type="checkbox" className="toggler"></input>
-                    <div className="hamburger"><div></div></div>
-                    <div className="menu">
-                        <div>
-                            <ul>
-                                <li className="navbar-item">
-                                    <Link
-                                        activeClass="active"
-                                        to="main"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={0}
-                                        duration={500}
-                                    >Main</Link>
-                                </li>
-                                <li className="navbar-item">
-                                    <Link
-                                        activeClass="active"
-                                        to="projects"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={0}
-                                        duration={500}
-                                    >Projects</Link>
-                                </li>
-                                <li className="navbar-item">
-                                    <Link
-                                        activeClass="active"
-                                        to="about"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={0}
-                                        duration={500}
-                                    >About</Link>
-                                </li>
-                                <li className="navbar-item">
-                                    <Link
-                                        activeClass="active"
-                                        to="contact-section"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={0}
-                                        duration={500}
-                                    >Contact</Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
         )

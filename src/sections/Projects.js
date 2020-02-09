@@ -29,12 +29,12 @@ class Projects extends Component {
                                     <div className="demo-buttons">
                                         <div className="fishland-github-buttons">
                                             <Icon name="github" size="large" className="demo-icons"/>
-                                            <a href="https://github.com/VadimS4/Fishland-frontend" target="_blank" rel="noopener noreferrer"><button> Frontend</button></a>
-                                            <a href="https://github.com/VadimS4/Fishland-backend" target="_blank" rel="noopener noreferrer"><button> Backend</button></a>
+                                            <a href="https://github.com/VadimS4/Fishland-frontend" target="_blank" rel="noopener noreferrer"><button className="projectButton"> Frontend</button></a>
+                                            <a href="https://github.com/VadimS4/Fishland-backend" target="_blank" rel="noopener noreferrer"><button className="projectButton"> Backend</button></a>
                                         </div>
                                         <div>
                                             <Icon name="computer" size="large" className="demo-icons"/>
-                                            <a href="https://fishland-application.herokuapp.com" target="_blank" rel="noopener noreferrer"><button> Live Demo</button></a>
+                                            <a href="https://fishland-application.herokuapp.com" target="_blank" rel="noopener noreferrer"><button className="projectButton"> Live Demo</button></a>
                                         </div>
                                     </div>
                                 </div>
@@ -58,15 +58,15 @@ class Projects extends Component {
                                     <div className="demo-buttons">
                                         <div>
                                             <Icon name="github" size="large" className="demo-icons"/>
-                                            <a href="https://github.com/calebwatters/Carfinder" target="_blank" rel="noopener noreferrer"><button> GitHub</button></a>
+                                            <a href="https://github.com/calebwatters/Carfinder" target="_blank" rel="noopener noreferrer"><button className="projectButton"> GitHub</button></a>
                                         </div>
                                         <div>
                                             <Icon name="computer" size="large" className="demo-icons"/>
-                                            <a href="https://still-plateau-78887.herokuapp.com" target="_blank" rel="noopener noreferrer"><button> Live Demo</button></a>
+                                            <a href="https://still-plateau-78887.herokuapp.com" target="_blank" rel="noopener noreferrer"><button className="projectButton"> Live Demo</button></a>
                                         </div>
                                         <div>
                                             <Icon name="youtube" size="large" className="demo-icons"/>
-                                            <a href="https://www.youtube.com/watch?v=sSO9WuqW_FM&t=2s" target="_blank" rel="noopener noreferrer"><button> Video Demo</button></a>
+                                            <a href="https://www.youtube.com/watch?v=sSO9WuqW_FM&t=2s" target="_blank" rel="noopener noreferrer"><button className="projectButton"> Video Demo</button></a>
                                         </div>
                                     </div>
                                 </div>
@@ -90,11 +90,11 @@ class Projects extends Component {
                                     <div className="demo-buttons">
                                         <div>
                                             <Icon name="github" size="large" className="demo-icons"/>
-                                            <a href="https://github.com/dtFocuS/noteminder-front-end" target="_blank" rel="noopener noreferrer"><button> GitHub</button></a>
+                                            <a href="https://github.com/dtFocuS/noteminder-front-end" target="_blank" rel="noopener noreferrer"><button className="projectButton"> GitHub</button></a>
                                         </div>
                                         <div>
                                             <Icon name="youtube" size="large" className="demo-icons"/>
-                                            <a href="https://www.youtube.com/watch?v=CUi3I-lQxiE&feature=youtu.be" target="_blank" rel="noopener noreferrer"><button> Video Demo</button></a>
+                                            <a href="https://www.youtube.com/watch?v=CUi3I-lQxiE&feature=youtu.be" target="_blank" rel="noopener noreferrer"><button className="projectButton"> Video Demo</button></a>
                                         </div>
                                     </div>
                                 </div>
@@ -118,11 +118,11 @@ class Projects extends Component {
                                     <div className="demo-buttons">
                                         <div>
                                             <Icon name="github" size="large" className="demo-icons"/>
-                                            <a href="https://github.com/milandhar/guided-module-one-project-assessment-seattle-web-career-042219" target="_blank" rel="noopener noreferrer"><button> GitHub</button></a>
+                                            <a href="https://github.com/milandhar/guided-module-one-project-assessment-seattle-web-career-042219" target="_blank" rel="noopener noreferrer"><button className="projectButton"> GitHub</button></a>
                                         </div>
                                         <div>
                                             <Icon name="youtube" size="large" className="demo-icons"/>
-                                            <a href="https://www.youtube.com/watch?v=3lnWob63pY4" target="_blank" rel="noopener noreferrer"><button> Video Demo</button></a>
+                                            <a href="https://www.youtube.com/watch?v=3lnWob63pY4" target="_blank" rel="noopener noreferrer"><button className="projectButton"> Video Demo</button></a>
                                         </div>
                                     </div>
                                 </div>
