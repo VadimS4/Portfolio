@@ -24,9 +24,11 @@ class About extends Component {
                         <img src={require('../images/Software-Engineer-image.jpg')} alt=""></img>
                     </div>
                     <div className="about-description">
-                        <p>I am a Software Engineer with strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, and CSS. I also have experience with databases, SQL, hosting technologies such as Heroku, and various styling libraries. </p>
-                        <p>I was a student at The Flatiron School in the Full Stack Software Engineering program where I learned full stack web development along with relevant and modern web development techniques. I embrace the will to keep learning and add value to myself by growing my skill-set.</p>
-                        <p>I take ideas and turn them into stunning websites!</p>
+                        <p>I am a Software Engineer specializing in Full Stack Web Development. I have strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, CSS, SQL, Postgres, and much more!  </p>
+                        <p>I was a student in The Flatiron School's Full Stack Software Engineering program. I learned Full Stack Web Development along with relevant and modern Web Development techniques. I was introduced to pair programming, and developed a true passion for writing code.
+                        </p>
+                        <p>I am not afraid to take on new challenges, and I am always striving to go above and beyond to learn something new and bring more value to my skillset.</p>
+                        <p>I like to turn ideas into a reality!</p>
                     </div>
                 </div>
                 <div className="technology-icons">
