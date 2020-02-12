@@ -13,7 +13,7 @@ const sideDrawer = props => {
     return(
         <nav className={drawerClasses}>
             <ul>
-                <li className="navbar-item">
+                <li className="mobile-navbar-item">
                     <Link
                         onClick={props.click}
                         activeClass="active"
@@ -24,7 +24,7 @@ const sideDrawer = props => {
                         duration={500}
                     >Main</Link>
                 </li>
-                <li className="navbar-item">
+                <li className="mobile-navbar-item">
                     <Link
                         onClick={props.click}
                         activeClass="active"
@@ -35,7 +35,7 @@ const sideDrawer = props => {
                         duration={500}
                     >Projects</Link>
                 </li>
-                <li className="navbar-item">
+                <li className="mobile-navbar-item">
                     <Link
                         onClick={props.click}
                         activeClass="active"
@@ -46,7 +46,7 @@ const sideDrawer = props => {
                         duration={500}
                     >About</Link>
                 </li>
-                <li className="navbar-item">
+                <li className="mobile-navbar-item">
                     <Link
                         onClick={props.click}
                         activeClass="active"

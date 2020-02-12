@@ -1,3 +1,39 @@
 footer {
     display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.upArrow {
+    position: absolute;
+    right: 1em;
+    width: 3em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icon-up{
+  position: relative;
+  cursor: pointer;
+  width: 2px;
+  height: 30px;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.icon-up:after{
+  content: "";
+  position: absolute;
+  right: -14px;
+  top: -14px;
+  width: 2px;
+  height: 30px;
+  background-color: #fff;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
