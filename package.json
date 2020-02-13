@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://vadims4.github.io/",
   "private": true,
   "dependencies": {
     "react": "^16.12.0",
