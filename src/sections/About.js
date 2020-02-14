@@ -25,10 +25,10 @@ class About extends Component {
                     </div>
                     <div className="about-description">
                         <p>I am a Software Engineer specializing in Full Stack Web Development. I have strong technical skills in Ruby on Rails, JavaScript, React, Redux, HTML, CSS, SQL, Postgres, and much more!  </p>
-                        <p>I was a student in The Flatiron School's Full Stack Software Engineering program. I learned Full Stack Web Development along with relevant and modern Web Development techniques. I was introduced to pair programming, and developed a true passion for writing code.
+                        <p>I was a student in The Flatiron School's Full Stack Software Engineering program. I learned Full Stack Web Development along with relevant and modern Web Development practices. Through this journey, I strengthened my passion for Software Engineering.
                         </p>
                         <p>I am not afraid to take on new challenges, and I am always striving to go above and beyond to learn something new and bring more value to my skillset.</p>
-                        <p>I like to turn ideas into a reality!</p>
+                        <p>I turn ideas into a reality!</p>
                     </div>
                 </div>
                 <div className="technology-icons">
