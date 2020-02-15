@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": ".",
+  "homepage": "https://VadimS4.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,8 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +40,7 @@
     "@iconify/icons-entypo": "^1.0.3",
     "@iconify/icons-logos": "^1.0.9",
     "@iconify/icons-mdi": "^1.0.66",
-    "@iconify/react": "^1.1.1"
+    "@iconify/react": "^1.1.1",
+    "gh-pages": "^2.2.0"
   }
 }
