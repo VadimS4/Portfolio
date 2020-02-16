@@ -37,3 +37,13 @@ footer {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 21em) {
+  .upArrow {
+    display: none;
+  }
+
+  footer {
+    padding-top: 1em;
+  }
+}
