@@ -19,6 +19,7 @@
 }
 
 .contact-info {
+  display: flex;
   align-self: center;
   background-color: #2b7a78;
   width: 85%;
@@ -28,14 +29,14 @@
 
 .contact-info p {
   text-align: center;
-  margin-left: 2em;
+  margin-left: 1em;
   align-self: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .emailA {
   align-self: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   flex-shrink: 1;
 }
 
@@ -43,7 +44,7 @@
   align-self: center;
   margin-left: 2em;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   flex-shrink: 1;
 }
 
@@ -51,7 +52,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2em;
+  padding: 1.75em;
   flex-shrink: 1;
 }
 
@@ -59,14 +60,14 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 .location {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2em;
+  padding: 1.75em;
 }
 
 .seattleImage {
@@ -103,5 +104,28 @@
     margin-top: 0;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
+  }
+}
+
+@media only screen and (max-width: 21em) {
+  .email {
+    padding: 1em;
+  }
+
+  .location {
+    padding: 1em;
+  }
+
+
+  .email p {
+    font-size: 1rem;
+  }
+
+  .emailA {
+    font-size: 1rem;
+  }
+
+  .phoneA {
+    font-size: 0.9rem;
   }
 }

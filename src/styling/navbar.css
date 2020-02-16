@@ -11,7 +11,7 @@
   align-items: center;
   flex-direction: row;
   z-index: 3;
-  height: 7em;
+  height: 6em;
   width: 100%;
   background-image: url('../images/main-background.jpg');
   transition: height 0.5s;
@@ -73,5 +73,6 @@ header {
       width: 100%;
       justify-content: flex-end;
       margin-right: 1em;
+      font-size: 1rem;
     }
 }
