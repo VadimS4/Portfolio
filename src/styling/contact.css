@@ -97,6 +97,7 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    height: 100%;
   }
 
   .seattle-img {
@@ -127,5 +128,25 @@
 
   .phoneA {
     font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .contact-block {
+    width: 55%;
+  }
+
+  .seattle-img {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width:56.25em) {
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
   }
 }
