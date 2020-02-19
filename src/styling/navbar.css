@@ -69,6 +69,10 @@ header {
       display: flex;
     }
 
+    .navbar {
+      height: 4.5em;
+    }
+
     .myName.appear {
       width: 100%;
       justify-content: flex-end;
